@@ -41,7 +41,7 @@ const users = coneccion.define('users', {
 
 coneccion.sync({ force: false }).then(() => {
   users.create({
-    name: 'Pepito',
+    name: 'Juancito',
     lastname: 'UDH',
     age: 58,
   });
